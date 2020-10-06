@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#section {
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#03fcf4 0%, #00fcce 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#section2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.Line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+}
+
+.link {
+    float: left;
+    color: white;
+    padding: 5px 9px;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: dodgerblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none
+}
+
+.article:hover {
+    color: aqua;
+}
